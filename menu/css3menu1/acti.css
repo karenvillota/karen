@@ -1,103 +1,137 @@
     /*estructura de la página*/
-html,body {
-    height:100%;
-}
-
-header {
-    display:block;
-    background:hsla(305, 100%, 74%, 0.781);
-    padding:20px 10px;
-}
-section {
-    width: 100%;
-    float: left;
-    overflow: auto;
-    padding-bottom: 60px;
-    padding-top:30px;
-}
-
-footer {
-    position: relative;
-    margin-top: -50px;
-    height: 40px; 
-    padding:5px 0px;
-    clear: both;
-    background: hsla(291, 71%, 80%, 0.919);
-    text-align: center;
-    color: #000000;
-}
-
-
-    /*Menu*/
-	.menu-container {
-		position: relative;
-		text-align: left;
-	}
-	.menu-button {
-		background-color: #4CAF50;
-		color: white;
-		padding: 10px 20px;
-		border: none;
-		cursor: pointer;
-	}
-	.dropdown-menu {
-		display: none;
-		position: absolute;
-		background-color: #f9f9f9;
-		min-width: 160px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-	}
-	.dropdown-menu button {
-		display: block;
-		width: 100%;
-		background-color: #4CAF50;
-		color: white;
-		padding: 10px 20px;
-		border: none;
-		cursor: pointer;
-	}
- /*slider*/
-/* Ajuste de posicionamiento para el logo */
-.logo {
-    position: absolute;
-    top: 10px; /* Ajusta el valor según sea necesario para evitar que el logo tape las imágenes */
-    left: 10px; /* Ajusta el valor para posicionar el logo en la parte izquierda */
-    z-index: 999; /* Asegura que el logo esté por encima de las imágenes */
-	width: 80px; /* Ajusta el ancho según sea necesario */
-    height: 80px; /* Ajusta la altura según sea necesario */
-}
-.slider {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    overflow: hidden;
-}
-
-.slider ul {
-    display: flex;
-    padding: 0;
-    list-style: none;
-    animation: cambio 40s infinite linear; /* Ajusta la duración para mostrar cada imagen completa */
-}
-
-.slider li {
-    flex: 0 0 100%; /* Establece el ancho de cada imagen al 100% del contenedor */
-    margin-right: 20px;
-}
-
-.slider li img {
-    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto;
-}
-
-@keyframes cambio {
-    0% {transform: translateX(0);} /* Estado inicial */
-    20% {transform: translateX(0);} /* Muestra la primera imagen durante 10 segundos */
-    40% {transform: translateX(-100%);} /* Desplaza a la segunda imagen */
-    60% {transform: translateX(-200%);} /* Desplaza a la tercera imagen */
-    80% {transform: translateX(-300%);} /* Desplaza a la cuarta imagen */
-    100% {transform: translateX(-300%);} /* Mantiene la cuarta imagen durante 10 segundos */
-}
-
-	
+    html,body {
+        height:100%;
+    }
+    body {
+        background-color: #ef40ff;
+    }
+    header {
+        display:block;
+        background:hsl(281, 100%, 81%);
+        padding:20px 10px;
+    }
+    main {
+        background:hsl(295, 100%, 77%);
+    }
+    
+    p{
+       font-size: 100%;  
+    }
+        /*Menu*/
+        .menu-btn {
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px;
+            background: none;
+            border: none;
+        }
+        .menu-container :hover {
+        
+            transform: scale(1.1);
+    }
+        .menu-btn .bar {
+            width: 23px;
+            height: 3px;
+            background-color: #ff0062;
+            margin: 5px 0;
+            transition: 0.4s;}
+            
+        .menu-container {
+            position: relative;
+            text-align: left;
+            padding: 7px;
+        }
+            
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: #8d008db2;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-menu button {
+            display: block;
+            width: 100%;
+            background-color: #ff00ff;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        /*slider*/
+    /* Ajuste de posicionamiento para el logo */
+    .logo {
+        width: 300px; /* Ancho*/
+        height: 30px; /* Altura */
+    }
+    .slider {
+        align-items: center;
+        position:relative;
+        margin: auto;
+        width: 98%;
+        overflow: hidden;
+        box-shadow: 5px 5px 3px #ac25fa4f;
+    }
+    
+    .slider ul {
+        display: flex;
+        padding: 0;
+        list-style: none;
+        animation: cambio 40s infinite linear; /* Ajusta la duración para mostrar cada imagen completa */
+    }
+    
+    .slider li {
+        flex: 0 0 100%; /* Establece el ancho de cada imagen al 100% del contenedor */
+        margin-right: 20px;
+    }
+    
+    .slider li img {
+        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: auto;
+    }
+    
+    @keyframes cambio {
+        0% {transform: translateX(0);} /* Estado inicial */
+        20% {transform: translateX(0);} /* Muestra la primera imagen durante 10 segundos */
+        40% {transform: translateX(-100%);} /* Desplaza a la segunda imagen */
+        60% {transform: translateX(-200%);} /* Desplaza a la tercera imagen */
+        80% {transform: translateX(-300%);} /* Desplaza a la cuarta imagen */
+        100% {transform: translateX(-300%);} /* Mantiene la cuarta imagen durante 10 segundos */
+    }
+    header{
+        align-items: center;
+        
+    }
+    .container {
+        background-color: rgb(243, 184, 243); /* Fondo blanco */
+        border-radius: 15px; /* Bordes redondeados */
+        box-shadow: 0 4px 8px  rgba(238, 82, 204, 0.342); /* Sombra */
+        padding: 20px; /* Espacio interno */
+        max-width: 90%; /* Ancho máximo del contenedor */
+        margin: 20px auto; /* Centrar el contenedor en la página */
+        display: flex; /* Usar flexbox para crear columnas */
+        gap: 20px; /* Espacio entre columnas */
+    }
+    .column {
+        flex: 1; /* Las columnas toman partes iguales del espacio disponible */
+        max-width: 80%;
+        align-items: center; /* Centrar verticalmente */
+        justify-content: center; /* Centrar horizontalmente */
+        text-align: center; /* Centrar el texto dentro de la columna */
+    }
+    .column img {
+        height: auto; /* Mantener la proporción de la imagen */
+        max-width: 200px;
+    }
+    
+    footer {
+        position: relative;
+        margin-top: -50px;
+        height: 40px; 
+        padding:5px 0px;
+        clear: both;
+        background: hsla(300, 100%, 77%, 0.919);
+        text-align: center;
+        color: #000000;
+    }
