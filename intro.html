@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html dir="ltr">
+<html lang="es">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="initial-scale=1.0">
-	<title>CREDITOS</title>
-		<!-- Start css3menu.com HEAD section -->
-	<link rel="stylesheet" href="menu/css3menu1/intro.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
-	<!-- End css3menu.com HEAD section -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREDITOS</title>
+    <link rel="stylesheet" href="menu/css3menu1/intro.css">
 
-	
 </head>
-<body ontouchstart="" style="background-color:#bcf5d6">
+<body>
+    <script>
+        function toggleDropdownMenu() {
+            var dropdownMenu = document.getElementById("dropdownMenu");
+            if (dropdownMenu.style.display === "none") {
+                dropdownMenu.style.display = "block";
+            } else {
+                dropdownMenu.style.display = "none";
+            }
+        }
 
-<!-- Start css3menu.com BODY section -->
-<nav><center>
-	<br>
-<input type="checkbox" id="css3menu-switcher" class="c3m-switch-input">
-<ul id="css3menu1" class="topmenu">
-	<li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
-	<li class="topfirst"><a href="inicio.html"height:18px;line-height:18px;">VOLVER</a></li>
-</ul><p class="_css3m"><a href="http://css3menu.com/">dropdown menu css</a> by Css3Menu.com</p>
-</center>
-
-<br>
-</nav>
-<!-- End css3menu.com BODY section -->
-<section>
-	<CENTER><h1>CREDITOS</h1></CENTER>
-	<hr color="#000000">
-	<article><p><h4>
-	<P>FUENTES: <BR>
-		https://concepto.de/genero-dramatico/
-	    https://www.conamat.com/blog/caracter%C3%ADsticas-del-genero-dramatico#:~:text=El%20g%C3%A9nero%20dram%C3%A1tico%20se%20caracteriza,di%C3%A1logos%20para%20<BR>desarrollar%20la%20obra.
-	  </P>
-      <P><CENTER>
-		Hola y bienvenidos a nuestra pagina web espero que halla sido de su a agrado y que hallan podido
-		aprender de una forma divertida y diferente a lo avitual.
-
-	   </CENTER>	
-	  </P>
-	</h4></p>
-</section>
-<aside>
-  <center><p><center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg3kJm9tSIaCFwE-NAbpwaCuZY2hhL4bkRXYc25JhvAg&s"  width= 90% alt=""></center></p></center>
-</aside>
-<footer>Hecho por Karen Villota,Laura Bohorquez,Ana Pinzon,Danna Prieto 2024</footer>
+        function showJuegosSubmenu() {
+            var juegosSubmenu = document.getElementById("juegosSubmenu");
+            juegosSubmenu.style.display = "block";
+        }
+    </script>
+    <nav class="menu-container">
+        <button class="menu-btn" onclick="toggleDropdownMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+        <div class="dropdown-menu" id="dropdownMenu" style="display: none;">
+			<button onclick="location.href='inicio.html'">INICIO</button>
+        </div>
+    </nav>
+    <main>
+        <section style="text-align: center;padding: 10px;">
+            <h1>CREDITOS</h1>
+        </section>
+        <section class="container">
+            <div class="column">
+                <h1>FUENTES</h1>
+                <br>
+                <P>
+					https://concepto.de/genero-dramatico/
+					<BR>
+					https://www.conamat.com/blog/caracter%C3%ADsticas-del-genero-dramatico#:~:text=El%20g%C3%A9nero%20dram%C3%A1tico%20se%20caracteriza,di%C3%A1logos%20para%20<BR>desarrollar%20la%20obra.
+					<br><br>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/PI6lPNX7Jt0?si=QPNJtQZAv7xSzZIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </P>
+            </p>
+            </div>
+            <div class="column ">
+				<img src="imagenes/muchas gracias.png" alt="100%" width="100%">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
