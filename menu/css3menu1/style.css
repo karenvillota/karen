@@ -15,8 +15,9 @@
     }
     
     p{
-       font-size: 100%;  
-    }
+        font-size: 120%;  
+        text-align: left;
+     }
         /*Menu*/
         .menu-btn {
             display: inline-block;

@@ -3,11 +3,11 @@
         height:100%;
     }
     body {
-        background-color: #94defc;
+        background-color: #3bc2f8;
     }
     header {
         display:block;
-        background:hsl(253, 100%, 85%);
+        background:hsl(192, 91%, 78%);
         padding:20px 10px;
     }
     main {
@@ -15,7 +15,11 @@
     }
     
     p{
-       font-size: 100%;  
+        font-size: 120%;  
+        text-align: left;
+    }
+    li{
+        text-align: left;
     }
         /*Menu*/
         .menu-btn {
