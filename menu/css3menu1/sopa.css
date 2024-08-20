@@ -104,27 +104,16 @@
         
     }
     .container {
-        background-color: rgba(96, 115, 219, 0.849); /* Fondo blanco */
+        background-color: rgba(96, 115, 219, 0.849); /* Fondo */
         border-radius: 15px; /* Bordes redondeados */
         box-shadow: 0 4px 8px rgba(50, 3, 216, 0.301); /* Sombra */
         padding: 20px; /* Espacio interno */
         max-width: 90%; /* Ancho máximo del contenedor */
-        margin: 20px auto; /* Centrar el contenedor en la página */
+        margin: 5% auto; /* Centrar el contenedor en la página */
         display: flex; /* Usar flexbox para crear columnas */
-        gap: 20px; /* Espacio entre columnas */
-    }
-    .column {
-        flex: 1; /* Las columnas toman partes iguales del espacio disponible */
-        max-width: 80%;
-        align-items: center; /* Centrar verticalmente */
         justify-content: center; /* Centrar horizontalmente */
-        text-align: center; /* Centrar el texto dentro de la columna */
+        align-items: center; /* Centrar verticalmente */
     }
-    .column img {
-        height: auto; /* Mantener la proporción de la imagen */
-        max-width: 200px;
-    }
-    
     footer {
         position: relative;
         margin-top: -50px;

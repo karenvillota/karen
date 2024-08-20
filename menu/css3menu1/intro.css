@@ -10,8 +10,8 @@ main {
 }
 
 p{
-   font-size: 100%; 
-   text-align: left; 
+   font-size: 75%; 
+   text-align:left; 
 }
 	/*Menu*/
 	.menu-btn {
@@ -78,10 +78,10 @@ p{
 }
 .column {
 	flex: 1; /* Las columnas toman partes iguales del espacio disponible */
-	max-width: 80%;
+	max-width: 60%;
 	align-items: center; /* Centrar verticalmente */
 	justify-content: center; /* Centrar horizontalmente */
-	text-align: center; /* Centrar el texto dentro de la columna */
+	text-align: right; /* Centrar el texto dentro de la columna */
 }
 .column img {
 	height: auto; /* Mantener la proporción de la imagen */
