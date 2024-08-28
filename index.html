@@ -5,36 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina principal</title>
     <style>
-       body {
-            background-image: url(imagenes/fondo.gif);
-            background-size: cover;
-            background-repeat: no-repeat;
-            min-height: 100vh;
+        body {
+            background-image: url(imagenes/The\ world\ studios.png);
+            background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            height: 100vh; /* Establece la altura del body al 100% de la altura de la ventana */
+            margin: 0; /* Elimina el margen por defecto del body */
             display: flex; /* Habilita Flexbox */
-            justify-content: center; /* Centra horizontalmente */
-            align-items: center; /* Centra verticalmente */
             flex-direction: column; /* Alinea en columna */
+            justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+            align-items: center; /* Centra horizontalmente */
+        }
+        .button-container {
+            display: flex; /* Cambia a flex para alinear botones horizontalmente */
+            gap: 50px; /* Espacio entre botones */
+            margin-bottom: 20px; /* Espacio en la parte inferior del contenedor de botones */
         }
         .boton1, .boton2 {
-            background-size: cover;
-            padding: 90px 120px;
-            font-size: 90px;
-            margin: 10px; /* Espaciado entre botones */
+            background-size: contain; /* Cambia a contain para ajustar el tamaño de la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            padding: 100px 100px;
+            font-size: 100px; /* Ajusta el tamaño de la fuente */
+            border: none; /* Elimina el borde del botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
         }
         .boton1 {
-            background-image: url(imagenes/inicio.png);
+            background-image: url(imagenes/inicio.gif);
         }
         .boton2 {
-            background-image: url(imagenes/creditos.png);
+            background-image: url(imagenes/creditos.gif);
         }
     </style>
 </head>
 
 <body>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  
-  <button class="boton1" onclick="location.href='inicio.html'"></button>
-  <button class="boton2" onclick="location.href='intro.html'"></button>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="button-container">
+        <button class="boton1" onclick="location.href='inicio.html'"></button>
+        <button class="boton2" onclick="location.href='intro.html'"></button>
+    </div>
 </body>
 </html>
