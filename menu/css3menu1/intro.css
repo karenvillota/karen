@@ -3,10 +3,10 @@
 	height:100%;
 }
 body {
-	background-color: #75e0ee;
+	background-color: #c5a4fa;
 }
 main {
-	background:hsl(133, 86%, 43%);
+	background:hsla(266, 97%, 73%, 0.966);
 }
 
 p{
@@ -28,7 +28,7 @@ p{
 	.menu-btn .bar {
 		width: 23px;
 		height: 3px;
-		background-color: #4c00ff;
+		background-color: #0011ff;
 		margin: 5px 0;
 		transition: 0.4s;}
 		
@@ -49,7 +49,7 @@ p{
 	.dropdown-menu button {
 		display: block;
 		width: 100%;
-		background-color: #c5ff5a;
+		background-color: #289eec;
 		color: rgb(0, 0, 0);
 		padding: 10px 20px;
 		border: none;
@@ -62,14 +62,14 @@ p{
 	margin: auto;
 	width: 98%;
 	overflow: hidden;
-	box-shadow: 5px 5px 3px #15db57e7;
+	box-shadow: 5px 5px 3px #2c87ffe7;
 }
 
 
 .container {
-	background-color: rgba(96, 255, 189, 0.979); /* Fondo blanco */
+	background-color: rgba(211, 165, 248, 0.979); /* Fondo blanco */
 	border-radius: 15px; /* Bordes redondeados */
-	box-shadow: 0 4px 8px rgba(10, 255, 121, 0.548); /* Sombra */
+	box-shadow: 0 4px 8px rgba(159, 4, 206, 0.945); /* Sombra */
 	padding: 30px; /* Espacio interno */
 	max-width: 90%; /* Ancho máximo del contenedor */
 	margin: 10px auto; /* Centrar el contenedor en la página */
@@ -94,7 +94,7 @@ footer {
 	height: 40px; 
 	padding:5px 0px;
 	clear: both;
-	background: hsla(180, 92%, 58%, 0.919);
+	background: hsla(271, 97%, 65%, 0.919);
 	text-align: center;
 	color: #000000;
 }

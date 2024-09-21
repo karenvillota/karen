@@ -3,7 +3,7 @@
         height:100%;
     }
     body {
-        background-color: #8bf89a;
+        background-color: #dae912e3;
     }
     header {
         display:block;
@@ -16,7 +16,7 @@
     
     p{
         font-size: 120%;  
-        text-align: left;
+        text-align: justify;
      }
         /*Menu*/
         .menu-btn {
@@ -33,7 +33,7 @@
         .menu-btn .bar {
             width: 23px;
             height: 3px;
-            background-color: #139103;
+            background-color: #98a805;
             margin: 5px 0;
             transition: 0.4s;}
             
@@ -54,7 +54,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #33f553;
+            background-color: #d8f533;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -63,7 +63,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 200px; /* Ancho*/
+        width: 150px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -105,9 +105,9 @@
         
     }
     .container {
-        background-color: rgb(215, 238, 152); /* Fondo blanco */
+        background-color: rgb(236, 238, 152); /* Fondo blanco */
         border-radius: 15px; /* Bordes redondeados */
-        box-shadow: 0 4px 8px  rgb(191, 221, 108); /* Sombra */
+        box-shadow: 0 4px 8px  rgb(214, 221, 108); /* Sombra */
         padding: 20px; /* Espacio interno */
         max-width: 90%; /* Ancho máximo del contenedor */
         margin: 20px auto; /* Centrar el contenedor en la página */
@@ -123,7 +123,7 @@
     }
     .column img {
         height: auto; /* Mantener la proporción de la imagen */
-        max-width: 200px;
+        max-width: 900px;
     }
     
     footer {

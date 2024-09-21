@@ -16,7 +16,7 @@
     
     p{
         font-size: 120%;  
-        text-align: left;
+        text-align: justify;
     }
     li{
         text-align: left;
@@ -66,7 +66,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 200px; /* Ancho*/
+        width: 150px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
