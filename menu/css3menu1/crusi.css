@@ -3,15 +3,15 @@
         height:100%;
     }
     body {
-        background-color: #322eff;
+        background-color: #4ff7d5;
     }
     header {
         display:block;
-        background:hsl(257, 100%, 65%);
+        background:hsl(165, 87%, 76%);
         padding:20px 10px;
     }
     main {
-        background:hsl(258, 58%, 68%);
+        background:hsl(165, 87%, 76%);
     }
     
     p{
@@ -32,7 +32,7 @@
         .menu-btn .bar {
             width: 23px;
             height: 3px;
-            background-color: #ae00ff;
+            background-color: #03f845;
             margin: 5px 0;
             transition: 0.4s;}
             
@@ -45,7 +45,7 @@
         .dropdown-menu {
             display: none;
             position: absolute;
-            background-color: #4059e4;
+            background-color: #4dfa87;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -53,7 +53,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #4380f1;
+            background-color: #0aff9d;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -62,7 +62,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 200px; /* Ancho*/
+        width: 150px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -71,7 +71,7 @@
         margin: auto;
         width: 98%;
         overflow: hidden;
-        box-shadow: 5px 5px 3px #d66fffab;
+        box-shadow: 5px 5px 3px #044acc1f;
     }
     
     .slider ul {
@@ -104,7 +104,7 @@
         
     }
     .container {
-        background-color: rgba(96, 115, 219, 0.849); /* Fondo */
+        background-color: #4ff7d5; /* Fondo */
         border-radius: 15px; /* Bordes redondeados */
         box-shadow: 0 4px 8px rgba(50, 3, 216, 0.301); /* Sombra */
         padding: 20px; /* Espacio interno */
@@ -124,3 +124,7 @@
         text-align: center;
         color: #000000;
     }
+
+
+
+

@@ -3,15 +3,15 @@
         height:100%;
     }
     body {
-        background-color: #ef40ff;
+        background-color: #ff72ff;
     }
     header {
         display:block;
-        background:hsl(281, 100%, 81%);
+        background:hsl(294, 96%, 80%);
         padding:20px 10px;
     }
     main {
-        background:hsl(295, 100%, 77%);
+        background:hsl(294, 96%, 80%);
     }
     
     p{
@@ -62,7 +62,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 200px; /* Ancho*/
+        width: 150px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -104,7 +104,7 @@
         
     }
     .container {
-        background-color: rgb(250, 78, 227); /* Fondo */
+        background-color: #ff72ff;/* Fondo */
         border-radius: 15px; /* Bordes redondeados */
         box-shadow: 0 4px 8px rgba(136, 0, 136, 0.301); /* Sombra */
         padding: 20px; /* Espacio interno */

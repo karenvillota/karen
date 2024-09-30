@@ -3,15 +3,15 @@
         height:100%;
     }
     body {
-        background-color: #dae912e3;
+        background-color: #f4ff5ee3;
     }
     header {
         display:block;
-        background:hsl(54, 92%, 85%);
+        background:hsl(54, 92%, 70%);
         padding:20px 10px;
     }
     main {
-        background:hsl(66, 100%, 73%);
+        background:hsl(54, 92%, 70%);
     }
     
     p{

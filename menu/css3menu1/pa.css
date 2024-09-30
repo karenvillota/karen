@@ -1,126 +1,130 @@
-    /*estructura de la página*/
-    html,body {
-        height:100%;
+   /*estructura de la página*/
+   html,body {
+    height:100%;
+}
+body {
+    background-color: #4ff7d5;
+}
+header {
+    display:block;
+    background:hsl(165, 87%, 76%);
+    padding:20px 10px;
+}
+main {
+    background:hsl(165, 87%, 76%);
+}
+
+p{
+   font-size: 100%;  
+}
+    /*Menu*/
+    .menu-btn {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+        background: none;
+        border: none;
     }
-    body {
-        background-color: #322eff;
-    }
-    header {
-        display:block;
-        background:hsl(257, 100%, 65%);
-        padding:20px 10px;
-    }
-    main {
-        background:hsl(258, 58%, 68%);
-    }
+    .menu-container :hover {
     
-    p{
-       font-size: 100%;  
-    }
-        /*Menu*/
-        .menu-btn {
-            display: inline-block;
-            cursor: pointer;
-            padding: 10px;
-            background: none;
-            border: none;
-        }
-        .menu-container :hover {
+        transform: scale(1.1);
+}
+    .menu-btn .bar {
+        width: 23px;
+        height: 3px;
+        background-color: #03f845;
+        margin: 5px 0;
+        transition: 0.4s;}
         
-            transform: scale(1.1);
-    }
-        .menu-btn .bar {
-            width: 23px;
-            height: 3px;
-            background-color: #ae00ff;
-            margin: 5px 0;
-            transition: 0.4s;}
-            
-        .menu-container {
-            position: relative;
-            text-align: left;
-            padding: 7px;
-        }
-            
-        .dropdown-menu {
-            display: none;
-            position: absolute;
-            background-color: #4059e4;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-        .dropdown-menu button {
-            display: block;
-            width: 100%;
-            background-color: #4380f1;
-            color: rgb(0, 0, 0);
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        /*slider*/
-    /* Ajuste de posicionamiento para el logo */
-    .logo {
-        width: 150px; /* Ancho*/
-        height: 30px; /* Altura */
-    }
-    .slider {
-        align-items: center;
-        position:relative;
-        margin: auto;
-        width: 98%;
-        overflow: hidden;
-        box-shadow: 5px 5px 3px #d66fffab;
-    }
-    
-    .slider ul {
-        display: flex;
-        padding: 0;
-        list-style: none;
-        animation: cambio 40s infinite linear; /* Ajusta la duración para mostrar cada imagen completa */
-    }
-    
-    .slider li {
-        flex: 0 0 100%; /* Establece el ancho de cada imagen al 100% del contenedor */
-        margin-right: 20px;
-    }
-    
-    .slider li img {
-        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-        height: auto;
-    }
-    
-    @keyframes cambio {
-        0% {transform: translateX(0);} /* Estado inicial */
-        20% {transform: translateX(0);} /* Muestra la primera imagen durante 10 segundos */
-        40% {transform: translateX(-100%);} /* Desplaza a la segunda imagen */
-        60% {transform: translateX(-200%);} /* Desplaza a la tercera imagen */
-        80% {transform: translateX(-300%);} /* Desplaza a la cuarta imagen */
-        100% {transform: translateX(-300%);} /* Mantiene la cuarta imagen durante 10 segundos */
-    }
-    header{
-        align-items: center;
-        
-    }
-    .container {
-        background-color: rgba(96, 115, 219, 0.849); /* Fondo */
-        border-radius: 15px; /* Bordes redondeados */
-        box-shadow: 0 4px 8px rgba(50, 3, 216, 0.301); /* Sombra */
-        padding: 20px; /* Espacio interno */
-        max-width: 90%; /* Ancho máximo del contenedor */
-        margin: 5% auto; /* Centrar el contenedor en la página */
-        display: flex; /* Usar flexbox para crear columnas */
-        justify-content: center; /* Centrar horizontalmente */
-        align-items: center; /* Centrar verticalmente */
-    }
-    footer {
+    .menu-container {
         position: relative;
-        margin-top: -50px;
-        height: 40px; 
-        padding:5px 0px;
-        clear: both;
-        background: hsla(258, 92%, 58%, 0.919);
-        text-align: center;
-        color: #000000;
+        text-align: left;
+        padding: 7px;
     }
+        
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #4dfa87;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-menu button {
+        display: block;
+        width: 100%;
+        background-color: #0aff9d;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    /*slider*/
+/* Ajuste de posicionamiento para el logo */
+.logo {
+    width: 150px; /* Ancho*/
+    height: 30px; /* Altura */
+}
+.slider {
+    align-items: center;
+    position:relative;
+    margin: auto;
+    width: 98%;
+    overflow: hidden;
+    box-shadow: 5px 5px 3px #044acc1f;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    animation: cambio 40s infinite linear; /* Ajusta la duración para mostrar cada imagen completa */
+}
+
+.slider li {
+    flex: 0 0 100%; /* Establece el ancho de cada imagen al 100% del contenedor */
+    margin-right: 20px;
+}
+
+.slider li img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+}
+
+@keyframes cambio {
+    0% {transform: translateX(0);} /* Estado inicial */
+    20% {transform: translateX(0);} /* Muestra la primera imagen durante 10 segundos */
+    40% {transform: translateX(-100%);} /* Desplaza a la segunda imagen */
+    60% {transform: translateX(-200%);} /* Desplaza a la tercera imagen */
+    80% {transform: translateX(-300%);} /* Desplaza a la cuarta imagen */
+    100% {transform: translateX(-300%);} /* Mantiene la cuarta imagen durante 10 segundos */
+}
+header{
+    align-items: center;
+    
+}
+.container {
+    background-color: #4ff7d5; /* Fondo */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(50, 3, 216, 0.301); /* Sombra */
+    padding: 20px; /* Espacio interno */
+    max-width: 90%; /* Ancho máximo del contenedor */
+    margin: 5% auto; /* Centrar el contenedor en la página */
+    display: flex; /* Usar flexbox para crear columnas */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: hsla(258, 92%, 58%, 0.919);
+    text-align: center;
+    color: #000000;
+}
+
+
+
+

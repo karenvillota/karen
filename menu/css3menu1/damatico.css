@@ -3,7 +3,7 @@
         height:100%;
     }
     body {
-        background-color: #622bfc;
+        background-color: #9e6ddd;
     }
     header {
         display:block;
@@ -46,7 +46,7 @@
         .dropdown-menu {
             display: none;
             position: absolute;
-            background-color: #1fcbff;
+            background-color: #db88ff;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -54,7 +54,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #1ee2f0;
+            background-color: #db88ff;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -63,7 +63,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 200px; /* Ancho*/
+        width: 150px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
