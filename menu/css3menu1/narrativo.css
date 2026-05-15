@@ -125,7 +125,7 @@
     }
     .column img {
         height: auto; /* Mantener la proporción de la imagen */
-        max-width: 600px;
+        max-width: 560px;
     }
     
     footer {
