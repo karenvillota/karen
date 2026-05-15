@@ -3,19 +3,20 @@
         height:100%;
     }
     body {
-        background-color: #4ff7d5;
+        background-color: #1967f8;
     }
     header {
         display:block;
-        background:hsl(165, 87%, 76%);
+        background:hsl(257, 94%, 65%);
         padding:20px 10px;
     }
     main {
-        background:hsl(165, 87%, 76%);
+        background:hsl(258, 71%, 61%);
     }
     
     p{
        font-size: 100%;  
+       font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     }
         /*Menu*/
         .menu-btn {
@@ -32,7 +33,7 @@
         .menu-btn .bar {
             width: 23px;
             height: 3px;
-            background-color: #03f845;
+            background-color: #1106ad;
             margin: 5px 0;
             transition: 0.4s;}
             
@@ -45,7 +46,7 @@
         .dropdown-menu {
             display: none;
             position: absolute;
-            background-color: #4dfa87;
+            background-color: #3e9bda;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -53,7 +54,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #0aff9d;
+            background-color: #4354f1;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -62,7 +63,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 150px; /* Ancho*/
+        width: 200px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -71,7 +72,7 @@
         margin: auto;
         width: 98%;
         overflow: hidden;
-        box-shadow: 5px 5px 3px #044acc1f;
+        box-shadow: 5px 5px 3px #2718eeab;
     }
     
     .slider ul {
@@ -104,7 +105,7 @@
         
     }
     .container {
-        background-color: #4ff7d5; /* Fondo */
+        background-color: rgba(158, 120, 247, 0.89); /* Fondo */
         border-radius: 15px; /* Bordes redondeados */
         box-shadow: 0 4px 8px rgba(50, 3, 216, 0.301); /* Sombra */
         padding: 20px; /* Espacio interno */
@@ -124,7 +125,3 @@
         text-align: center;
         color: #000000;
     }
-
-
-
-

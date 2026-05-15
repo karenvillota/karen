@@ -1,23 +1,25 @@
-     /*estructura de la página*/
+    /*estructura de la página*/
     html,body {
         height:100%;
     }
     body {
-        background-color: #1967f8;
+        background-color: #f38f32;
     }
     header {
         display:block;
-        background:hsl(257, 94%, 65%);
+        background:hsl(34, 89%, 55%);
         padding:20px 10px;
     }
     main {
-        background:hsl(258, 71%, 61%);
+        background:hsl(34, 98%, 53%);
     }
     
     p{
-       font-size: 100%;  
-       font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
-    }
+        font-size: 120%;  
+        text-align: left;
+        font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    
+     }
         /*Menu*/
         .menu-btn {
             display: inline-block;
@@ -33,7 +35,7 @@
         .menu-btn .bar {
             width: 23px;
             height: 3px;
-            background-color: #1106ad;
+            background-color: #915906;
             margin: 5px 0;
             transition: 0.4s;}
             
@@ -46,7 +48,7 @@
         .dropdown-menu {
             display: none;
             position: absolute;
-            background-color: #3e9bda;
+            background-color: #c2880c;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -54,7 +56,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #4354f1;
+            background-color: #e7cd3a;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -72,7 +74,7 @@
         margin: auto;
         width: 98%;
         overflow: hidden;
-        box-shadow: 5px 5px 3px #2718eeab;
+        box-shadow: 5px 5px 3px #f7d309a9;
     }
     
     .slider ul {
@@ -105,23 +107,34 @@
         
     }
     .container {
-        background-color: rgba(158, 120, 247, 0.89); /* Fondo */
+        background-color: rgb(243, 221, 122); /* Fondo blanco */
         border-radius: 15px; /* Bordes redondeados */
-        box-shadow: 0 4px 8px rgba(50, 3, 216, 0.301); /* Sombra */
+        box-shadow: 0 4px 8px rgba(233, 201, 58, 0.801); /* Sombra */
         padding: 20px; /* Espacio interno */
         max-width: 90%; /* Ancho máximo del contenedor */
-        margin: 5% auto; /* Centrar el contenedor en la página */
+        margin: 20px auto; /* Centrar el contenedor en la página */
         display: flex; /* Usar flexbox para crear columnas */
-        justify-content: center; /* Centrar horizontalmente */
-        align-items: center; /* Centrar verticalmente */
+        gap: 20px; /* Espacio entre columnas */
     }
+    .column {
+        flex: 1; /* Las columnas toman partes iguales del espacio disponible */
+        max-width: 80%;
+        align-items: center; /* Centrar verticalmente */
+        justify-content: center; /* Centrar horizontalmente */
+        text-align: center; /* Centrar el texto dentro de la columna */
+    }
+    .column img {
+        height: auto; /* Mantener la proporción de la imagen */
+        max-width: 600px;
+    }
+    
     footer {
         position: relative;
         margin-top: -50px;
         height: 40px; 
         padding:5px 0px;
         clear: both;
-        background: hsla(258, 92%, 58%, 0.919);
+        background: hsla(29, 97%, 48%, 0.919);
         text-align: center;
         color: #000000;
     }

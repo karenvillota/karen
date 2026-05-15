@@ -3,20 +3,21 @@
         height:100%;
     }
     body {
-        background-color: #9e6ddd;
+        background-color: #b69e9e;
     }
     header {
         display:block;
-        background:hsl(258, 88%, 83%);
+        background:hsl(340, 76%, 52%);
         padding:20px 10px;
     }
     main {
-        background:hsl(258, 88%, 83%);
+        background:hsl(345, 88%, 54%);
     }
     
     p{
        font-size: 120%;  
-       text-align: justify;
+       text-align: left;
+       font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     }
         /*Menu*/
         .menu-btn {
@@ -33,7 +34,7 @@
         .menu-btn .bar {
             width: 23px;
             height: 3px;
-            background-color: #230668;
+            background-color: #ff2600;
             margin: 5px 0;
             transition: 0.4s;}
             
@@ -46,7 +47,7 @@
         .dropdown-menu {
             display: none;
             position: absolute;
-            background-color: #db88ff;
+            background-color: #ff1f1f;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -54,7 +55,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #db88ff;
+            background-color: #fa3f3f;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -63,7 +64,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 150px; /* Ancho*/
+        width: 200px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -72,7 +73,7 @@
         margin: auto;
         width: 98%;
         overflow: hidden;
-        box-shadow: 5px 5px 3px #7960e7ab;
+        box-shadow: 5px 5px 3px #e70d0dab;
     }
     
     .slider ul {
@@ -105,9 +106,9 @@
         
     }
     .container {
-        background-color: rgb(211, 171, 238); /* Fondo blanco */
+        background-color: rgb(238, 171, 171); /* Fondo blanco */
         border-radius: 15px; /* Bordes redondeados */
-        box-shadow: 0 4px 8px rgba(125, 94, 240, 0.774); /* Sombra */
+        box-shadow: 0 4px 8px rgba(241, 9, 9, 0.774); /* Sombra */
         padding: 20px; /* Espacio interno */
         max-width: 90%; /* Ancho máximo del contenedor */
         margin: 20px auto; /* Centrar el contenedor en la página */

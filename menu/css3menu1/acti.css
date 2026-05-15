@@ -3,19 +3,20 @@
         height:100%;
     }
     body {
-        background-color: #ff72ff;
+        background-color: #ffe81d;
     }
     header {
         display:block;
-        background:hsl(294, 96%, 80%);
+        background:hsl(29, 89%, 57%);
         padding:20px 10px;
     }
     main {
-        background:hsl(294, 96%, 80%);
+        background:hsl(24, 80%, 54%);
     }
     
     p{
        font-size: 100%;  
+       font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     }
         /*Menu*/
         .menu-btn {
@@ -32,7 +33,7 @@
         .menu-btn .bar {
             width: 23px;
             height: 3px;
-            background-color: #ff0062;
+            background-color: #ff3300;
             margin: 5px 0;
             transition: 0.4s;}
             
@@ -45,7 +46,7 @@
         .dropdown-menu {
             display: none;
             position: absolute;
-            background-color: #8d008db2;
+            background-color: #caf11bb2;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -53,7 +54,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #ff00ff;
+            background-color: #9eec1f;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -62,7 +63,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 150px; /* Ancho*/
+        width: 200px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -71,7 +72,7 @@
         margin: auto;
         width: 98%;
         overflow: hidden;
-        box-shadow: 5px 5px 3px #ac25fa4f;
+        box-shadow: 5px 5px 3px #f3b60d4f;
     }
     
     .slider ul {
@@ -104,7 +105,7 @@
         
     }
     .container {
-        background-color: #ff72ff;/* Fondo */
+        background-color: rgb(250, 181, 78); /* Fondo */
         border-radius: 15px; /* Bordes redondeados */
         box-shadow: 0 4px 8px rgba(136, 0, 136, 0.301); /* Sombra */
         padding: 20px; /* Espacio interno */
@@ -120,7 +121,7 @@
         height: 40px; 
         padding:5px 0px;
         clear: both;
-        background: hsla(300, 100%, 77%, 0.919);
+        background: hsla(41, 97%, 71%, 0.919);
         text-align: center;
         color: #000000;
     }

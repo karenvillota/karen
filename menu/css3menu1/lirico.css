@@ -3,20 +3,21 @@
         height:100%;
     }
     body {
-        background-color: #3bc2f8;
+        background-color: #4db4e4;
     }
     header {
         display:block;
-        background:hsl(192, 91%, 78%);
+        background:hsl(187, 95%, 39%);
         padding:20px 10px;
     }
     main {
-        background:hsl(192, 91%, 78%);
+        background:hsl(175, 72%, 52%);
     }
     
     p{
         font-size: 120%;  
-        text-align: justify;
+        text-align: left;
+        font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     }
     li{
         text-align: left;
@@ -57,7 +58,7 @@
         .dropdown-menu button {
             display: block;
             width: 100%;
-            background-color: #5448fc;
+            background-color: #6ddae9;
             color: rgb(0, 0, 0);
             padding: 10px 20px;
             border: none;
@@ -66,7 +67,7 @@
         /*slider*/
     /* Ajuste de posicionamiento para el logo */
     .logo {
-        width: 150px; /* Ancho*/
+        width: 200px; /* Ancho*/
         height: 30px; /* Altura */
     }
     .slider {
@@ -75,7 +76,7 @@
         margin: auto;
         width: 98%;
         overflow: hidden;
-        box-shadow: 5px 5px 3px #5595df75;
+        box-shadow: 5px 5px 3px #3281db75;
     }
     
     .slider ul {
@@ -135,7 +136,7 @@
         height: 40px; 
         padding:5px 0px;
         clear: both;
-        background: hsla(258, 92%, 58%, 0.919);
+        background: hsla(202, 92%, 58%, 0.919);
         text-align: center;
         color: #000000;
     }
